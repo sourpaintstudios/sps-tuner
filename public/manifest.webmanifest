@@ -1,0 +1,9 @@
+{
+  "name": "SPS Tuner",
+  "short_name": "SPS Tuner",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07090a",
+  "theme_color": "#07090a",
+  "icons": [{ "src": "/sour-paint-mark.png", "sizes": "720x340", "type": "image/png" }]
+}
