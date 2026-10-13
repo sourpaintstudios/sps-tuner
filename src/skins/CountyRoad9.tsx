@@ -1,15 +1,6 @@
 import { useEffect, useRef } from "react";
 
-export type SkinProps = {
-  /** Cents from the nearest note (negative flat, positive sharp), or null with no signal. */
-  cents: number | null;
-  /** Called once each time the player holds the note dead in tune. */
-  onLock?: () => void;
-};
-
-const LIME = "#d8ff4a";
-const IN_TUNE = 6; // cents
-const HOLD_MS = 650;
+import { HOLD_MS, IN_TUNE, LIME, type SkinProps } from "./common";
 
 type Spark = { x: number; y: number; vx: number; vy: number; life: number; hue: number };
 

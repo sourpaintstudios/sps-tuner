@@ -78,3 +78,7 @@ body {
 .a4 b { color: var(--fg); min-width: 4.6em; text-align: center; font-variant-numeric: tabular-nums; }
 .a4 button { width: 36px; height: 36px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); color: var(--lime); font-size: 1.1rem; }
 @media (max-height: 640px) { .note { font-size: 3rem; } .brand img { width: 70px; } }
+.skins { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+.skins::-webkit-scrollbar { display: none; }
+.chip { flex: none; font: inherit; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; padding: 8px 14px; min-height: 40px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); color: var(--muted); }
+.chip.on { background: var(--lime); color: #07090a; border-color: var(--lime); box-shadow: 0 0 14px rgba(216, 255, 74, 0.4); }
